@@ -1,0 +1,14 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+*{
+  box-sizing: border-box;
+  font-family: 'SF Pro Display', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1194px;
+  margin: 0 auto;
+}

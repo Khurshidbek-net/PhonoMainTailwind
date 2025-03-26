@@ -1,0 +1,67 @@
+.line {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 50%;
+  height: 5px;
+  background-color: green;
+}
+
+.bottom-line {
+  position: absolute;
+  bottom: 5%;
+  right: 50%;
+  width: 50%;
+  height: 5px;
+  background-color: green;
+}
+
+.ball {
+  position: absolute;
+  top: 13%;
+  right: 0;
+  transition: all 3s ease;
+  animation: rotation 5s ease-in-out infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: translateX(0px) rotate(0deg);
+  }
+
+  20% {
+    transform: translateX(-700px) rotate(-360deg);
+  }
+
+  30% {
+    transform: translate(-900px, 410px) rotate(-360deg);
+  }
+
+  40% {
+    transform: translate(-920px, 290px) rotate(-360deg);
+  }
+
+  50% {
+    transform: translate(-900px, 410px) rotate(-360deg);
+  }
+
+  60% {
+    transform: translate(-910px, 340px) rotate(-360deg);
+  }
+
+  70% {
+    transform: translate(-900px, 410px) rotate(-360deg);
+  }
+
+  80% {
+    transform: translate(-920px, 390px) rotate(-360deg);
+  }
+
+  90% {
+    transform: translate(-900px, 410px) rotate(-360deg);
+  }
+
+  100% {
+    transform: translate(-900px, 410px) rotate(-360deg);
+  } 
+}
